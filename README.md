@@ -20,4 +20,4 @@ Bot Battlr is a simple social media platform built with React, aimed at practici
 1. Clone the repository:
    
    ## Others
-   Live Link
+   Live Link https://bot-battlr-teal.vercel.app/
