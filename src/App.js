@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import BotCollection from "./components/BotCollection";
-import YourBotArmy from "./components/YourBotArmy";
+import BotArmy from "./components/BotArmy";
 import "./App.css";
 function App() {
   const [bots, setBots] = useState([]);
@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome to Bot Battlr</h1>
-      <YourBotArmy army={army} removeFromArmy={removeFromArmy} deleteBot={deleteBot} />
+      <BotArmy army={army} removeFromArmy={removeFromArmy} deleteBot={deleteBot} />
       <BotCollection bots={bots} addToArmy={addToArmy} deleteBot={deleteBot} />
     </div>
   );
